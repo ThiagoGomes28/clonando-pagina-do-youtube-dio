@@ -101,3 +101,59 @@ main{
   color: #515151;
   line-height: 100%;
 }
+
+.content {
+  display: flex;
+}
+
+.watching-video {
+  flex: 3;
+}
+
+.sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 24px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.suggested-video {
+  display: flex;
+  gap: 12px;
+  cursor: pointer;
+  min-height: 90px;
+  align-items: flex-start;
+}
+
+.suggested-video img {
+  width: 160px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.suggested-video .video-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90px;
+}
+
+.suggested-video .video-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0f0f0f;
+  line-height: 1.3;
+}
+
+.suggested-video .channel-name,
+.suggested-video .views {
+  font-size: 12px;
+  color: #606060;
+}
